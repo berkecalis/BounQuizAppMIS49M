@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    tools:ignore="UsingOnClickInXml">
+
+    <TextView
+        android:id="@+id/questionCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="40dp"
+        android:text="@string/counterLabel"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/trueAnswerCounterOnScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-15dp"
+        android:layout_marginRight="120dp"
+        android:text="True Answers"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/trueAnswerQuantityId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="120dp"
+        android:text="@string/trueAnswerQuantity"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/jokerBtton"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:background="@drawable/rounderbtton"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:onClick="jokerRightPressed"
+        android:padding="10dp"
+        android:text="%50"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="italic" />/>
+
+    <TextView
+        android:id="@+id/relatedQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="@string/questionLabel"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"/>
+
+    <Button
+        android:id="@+id/option1"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:onClick="checkTrueAnswer"
+        android:text="@string/buttonAnswer"
+        android:textStyle="italic"
+        android:background="@color/perfecto"
+        />
+
+    <Button
+        android:id="@+id/option2"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:onClick="checkTrueAnswer"
+        android:text="@string/buttonAnswer"
+        android:textStyle="italic"
+        android:background="@color/perfecto"/>
+
+    <Button
+        android:id="@+id/option3"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:onClick="checkTrueAnswer"
+        android:text="@string/buttonAnswer"
+        android:textStyle="italic"
+        android:background="@color/perfecto"/>
+
+    <Button
+        android:id="@+id/option4"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:onClick="checkTrueAnswer"
+        android:text="@string/buttonAnswer"
+        android:textStyle="italic"
+        android:background="@color/perfecto"/>
+
+    <TextView
+        android:id="@+id/timerCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="16sp" />
+
+</LinearLayout>

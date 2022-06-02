@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">BounQuizApp</string>
+    <string name="counterLabel">Q%d out of 10</string>
+    <string name="questionLabel">Question</string>
+    <string name="buttonAnswer">Option</string>
+
+    <string name="finishLabel">Scoring</string>
+    <string name="scoringLabel">%d out of 10</string>
+    <string name="reSolve">Solve quiz again!</string>
+    <string name="trueAnswerQuantity">%d</string>
+
+    <string name="openingCounter">Quiz will start in %d</string>
+
+
+</resources>
